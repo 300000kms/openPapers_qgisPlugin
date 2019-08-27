@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/open_papers" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
