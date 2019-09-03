@@ -12,20 +12,22 @@ email=info@300000kms.net
 
 about=Make an atlas, print it, draw, scan and analize.
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/300000kms/openPapers_qgisPlugin/issues
+repository=https://github.com/300000kms/openPapers_qgisPlugin
 # End of mandatory metadata
 
 # Recommended items:
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=
+
+changelog=
+	02.09.2019 V0.1: Primera versión
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, surveys, atlas,
 
-homepage=http://homepage
+homepage=https://github.com/300000kms/openPapers_qgisPlugin
 category=Plugins
 icon=icon.png
 # experimental flag
