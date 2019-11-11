@@ -7,15 +7,30 @@
 
 ### what is it ?
 
-This tool has been developed by [30000Km/s](http://www.300000kms.net) to help Arrels foundation to make the annual survey to count homeless people in Barcelona.
-The objective is provide to an amount of 900 volunteers a cartography of the city organized and coordinated to be distributed in different teams
+This tool has been developed by [30000Km/s](http://www.300000kms.net) to help [Arrels foundation] (https://www.arrelsfundacio.org) to make the annual survey to count homeless people in Barcelona.
+
+The purpose of this tools is generate a cartography to organize and be used by citizens in crowd surveys where GPS, phones and modern technologies are not precise enought or they need skilled people.
+
+
+
+
+
 Once the data is on the paper, it can be scanned and digitized
 
 <img src ="https://raw.githubusercontent.com/300000kms/arrels/master/img/photo.jpg">
 
 ### how is it?
 
-This tool is very experimental.
+#### What do you need?
+-
+
+#### 
+
+
+
+
+
+
 Is made by three main blocks of code:
 
 - 1  city divider:
@@ -38,3 +53,5 @@ Is made by three main blocks of code:
 <br>
  <img style ="width:600px" width="600px" src ="https://github.com/300000kms/arrels/blob/master/img/arrels_viewer.png?raw=true">
 <br>
+
+### and then?
