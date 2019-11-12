@@ -1,9 +1,13 @@
 # openPapers Qsis3 Plugin
+
 <img src="https://raw.githubusercontent.com/300000kms/arrels/master/logo.png">
+
 
 ## Make an atlas, print it, draw, scan and analize.
 
+
 ## The power of the paper for the collaborative surveys!
+
 
 ### what is it ?
 
@@ -12,12 +16,19 @@ This tool has been developed by [30000Km/s](http://www.300000kms.net) to help [A
 The purpose of this tools is generate a cartography to organize and be used by citizens in crowd surveys where GPS, phones and modern technologies are not precise enought or they need skilled people.
 
 
+### How it works?
 
+Once you have defined in Qgis the areas of the city you want to explore then the plugin generates an atlas that optimize the subdivision of the regions in paper sheets and coordinates the final documents.
 
+The plugin will generate an atlas divided in ZONES and AREAS, where a zone contains different areas, and each area is printed in different papers according their size.
 
-Once the data is on the paper, it can be scanned and digitized
+Once the data is on the paper, it can be scanned and digitized with othe tools that we are developing and testing, even you can create a new map with the small parts collected. 
+
+Also we provide qr code and bar code description for process the survei after it collection.
 
 <img src ="https://raw.githubusercontent.com/300000kms/arrels/master/img/photo.jpg">
+<img src ="img/photo.jpg">
+
 
 ### how is it?
 
@@ -30,22 +41,6 @@ Once the data is on the paper, it can be scanned and digitized
 
 
 
-
-Is made by three main blocks of code:
-
-- 1  city divider:
-  - 1.1 divide the city in differents parts
-  - 1.2 determine how many meters of paths there are
-   - 1.3 determine how big is each area
-   - 1.4 determine how subdivide each zone for a comfortable exploration
-
-- 2 atlas builder (Qgis Plugin):
- - 2.1 map maker: you can use your custom shapefiles, the cadaster files from spain or any web tile service
- - 2.2 form maker: you can configure the form that will be printed with each sheet of map
-
-- 3 scan reader:
- - 3.1 digitize the maps
- - 3.2 digitize the forms
 
  <img style ="width:600px" width="600px" src ="https://github.com/300000kms/arrels/blob/master/img/recompte-2016-600x400.jpg?raw=true">
 <br>
