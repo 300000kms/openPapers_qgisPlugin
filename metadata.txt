@@ -6,7 +6,7 @@
 name=openPapers
 qgisMinimumVersion=3.0
 description=Open Papers: Make an atlas, print it, draw, scan and analize.
-version=0.1
+version=0.2
 author=300.000kms.net
 email=info@300000kms.net
 
