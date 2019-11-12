@@ -23,6 +23,7 @@ hasProcessingProvider=no
 
 changelog=
 	02.09.2019 V0.1: Primera versión
+	12.11.2019 V0.2: Fixed fields of layer zones and areas
 
 # Tags are comma separated with spaces allowed
 tags=python, surveys, atlas,
