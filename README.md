@@ -41,11 +41,12 @@ Also we provide qr code and bar code description for process the survei after it
 - set a beautiful style to your map, when it's ready launch the plugin
 
 #### The panel
-<img src ="https://raw.githubusercontent.com/300000kms/arrels/master/img/Screenshot from 2019-11-11 18-41-17.png">
+<img src ="https://raw.githubusercontent.com/300000kms/openPapers_qgisPlugin/master/img/panel.png">
 
 
 
 
+-------------
 
 
 
