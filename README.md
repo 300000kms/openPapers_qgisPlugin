@@ -27,8 +27,6 @@ Once the data is on the paper, it can be scanned and digitized with othe tools t
 Also we provide qr code and bar code description for process the survei after it collection.
 
 <img src ="https://raw.githubusercontent.com/300000kms/arrels/master/img/photo.jpg">
-<img src ="img/photo.jpg">
-
 
 ### how is it?
 
@@ -39,8 +37,12 @@ Also we provide qr code and bar code description for process the survei after it
 
 - divide (in other file) the ZONES in AREAS, and to each AREA assign a a name and the id of the belongin ZONE 
 
+#### Prepare your qgis file
+- set a beautiful style to your map, when it's ready launch the plugin
 
-#### 
+#### The panel
+<img src ="https://raw.githubusercontent.com/300000kms/arrels/master/img/Screenshot from 2019-11-11 18-41-17.png">
+
 
 
 
