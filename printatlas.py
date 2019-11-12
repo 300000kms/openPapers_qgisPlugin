@@ -448,11 +448,12 @@ def makeAtlas(qptChapter,qptDivision,qptForm, form_file=None,form=False,project_
 
 #root = '/home/hp2018/Documents/_projects/_impulsem/project_badalona/'
 #root_out = 
-#root_code = 
-root_code = '/home/hp2018/Documents/_projects/_impulsem/code/'
-qptChapter  = root_code + 'templates/arrelsAtlas_chapter.qpt'
-qptDivision = root_code + 'templates/arrelsAtlas_division.qpt'
-qptForm     = root_code + 'templates/arrelsAtlas_form.qpt'
+#root_code =
+
+# root_code = '/home/hp2018/Documents/_projects/_impulsem/code/'
+# qptChapter  = root_code + 'templates/arrelsAtlas_chapter.qpt'
+# qptDivision = root_code + 'templates/arrelsAtlas_division.qpt'
+# qptForm     = root_code + 'templates/arrelsAtlas_form.qpt'
 
 '''
 makeAtlas(

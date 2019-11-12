@@ -119,13 +119,22 @@ def mkChapter(b, qptChapter,project_name, root_out, zl_layer, zl_field, di_layer
     #filter('divisions', '"name" = \''+b.attribute('name')+'\'' )
     #filter('divisions2', '"name" = \'' + b.attribute('name') + '\'')
 
-    QgsProject.instance().mapLayer(ZVL).setSubsetString( '"name" = \''+b.attribute('name')+'\'' )
-    QgsProject.instance().mapLayer(DVL).setSubsetString('"name" = \''+b.attribute('name')+'\'' )
-    QgsProject.instance().mapLayer(DVL2).setSubsetString('"name" = \''+b.attribute('name')+'\'' )
+
+    # QgsProject.instance().mapLayer(ZVL).setSubsetString( '"name" = \''+b.attribute('name')+'\'' )
+    # QgsProject.instance().mapLayer(DVL).setSubsetString('"name" = \''+b.attribute('name')+'\'' )
+    # QgsProject.instance().mapLayer(DVL2).setSubsetString('"name" = \''+b.attribute('name')+'\'' )
+
+
+    # QgsProject.instance().mapLayer(ZVL).setSubsetString( '"%s" = \'%s\'' %(zl_field, b.attribute(zl_field)) )
+    # QgsProject.instance().mapLayer(DVL).setSubsetString('"%s" = \'%s\'' %(di_field, b.attribute(zl_field))  )
+    # QgsProject.instance().mapLayer(DVL2).setSubsetString('"%s" = \'%s\'' %(di_field, b.attribute(zl_field)) )
 
 
     ### seleccionamos la zona
-    zz = Lz.getFeatures(QgsFeatureRequest(QgsExpression('"name" = \''+b.attribute('name')+'\''))) #cuidado si el valor es integer o string
+    #zz = Lz.getFeatures(QgsFeatureRequest(QgsExpression('"name" = \''+b.attribute('name')+'\''))) #cuidado si el valor es integer o string
+    print ('zz', '"%s" = \'%s\'' %(zl_field, b.attribute(zl_field)) )
+    zz = Lz.getFeatures(QgsFeatureRequest(QgsExpression('"%s" = \'%s\'' %(zl_field, b.attribute(zl_field))))) #cuidado si el valor es integer o string
+
     zz = [x for x in zz]
 
     # escogemos el distrito correspondiente a la zona

@@ -288,11 +288,11 @@ class openPapers:
 
         self.dlg.progressBar.setValue(0)
 
-        self.dlg.mQgsFileWidget_1.setFilePath(root_code + 'templates/arrelsAtlas_chapter.qpt')
-        self.dlg.mQgsFileWidget_2.setFilePath(root_code + 'templates/arrelsAtlas_division.qpt')
-        self.dlg.mQgsFileWidget_3.setFilePath(root_code + 'templates/arrelsAtlas_form.qpt')
+        self.dlg.mQgsFileWidget_1.setFilePath(root_code + '/op/templates/arrelsAtlas_chapter.qpt')
+        self.dlg.mQgsFileWidget_2.setFilePath(root_code + '/op/templates/arrelsAtlas_division.qpt')
+        self.dlg.mQgsFileWidget_3.setFilePath(root_code + '/op/templates/arrelsAtlas_form.qpt')
         self.dlg.checkBox.setChecked(1)
-        self.dlg.mQgsFileWidget_4.setFilePath(root_code + '/assets/formArrels_03.svg')
+        self.dlg.mQgsFileWidget_4.setFilePath(root_code + '/op/assets/formArrels_03.svg')
 
         self.dlg.mMapLayerComboBox.setFilters(QgsMapLayerProxyModel.VectorLayer)
         self.dlg.mMapLayerComboBox.layerChanged.connect(self.getLayerFields)

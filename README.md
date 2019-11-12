@@ -33,7 +33,12 @@ Also we provide qr code and bar code description for process the survei after it
 ### how is it?
 
 #### What do you need?
--
+- a base map of your city, territory or piece of land that you want to explore
+
+- divide it in different ZONES according the lead temas that are going to help you with this big task (assign them an id and a name)
+
+- divide (in other file) the ZONES in AREAS, and to each AREA assign a a name and the id of the belongin ZONE 
+
 
 #### 
 
